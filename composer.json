@@ -1,0 +1,28 @@
+{
+  "name": "dees040/persisting-requests",
+  "description": "Laravel package for create persisting request.",
+  "type": "library",
+  "license": "Beerware",
+  "keywords": [
+    "laravel",
+    "request",
+    "persist",
+    "persisting"
+  ],
+  "authors": [
+    {
+      "name": "dees040",
+      "email": "deesoomens@gmai.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/container": "^5.0,<5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "dees040\\PersistingRequests\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
